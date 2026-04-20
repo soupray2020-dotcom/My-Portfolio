@@ -1,0 +1,161 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", "sans-serif";
+}
+
+/* SMOOTH SCROLL */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: linear-gradient(120deg, #f6d365, #fda085);
+}
+
+/* Hero section */
+header {
+    background: linear-gradient(135deg, #667eea, #764ba2, #00c6ff);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    color: white;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #00adb5;
+}
+
+/* HERO */
+header {
+    
+     background: url("image/bg.jpg") no-repeat center;
+     height: 300px;
+    color: black;
+    
+    font-size: 26px;
+     text-align: top;
+    padding: 80px 200px;
+}
+
+/* SECTIONS */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* ABOUT */
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 15px 0;
+    object-fit: cover;
+}
+
+/* SKILLS */
+#skills ul {
+    list-style: none;
+}
+
+#skills li {
+    display: inline-block;
+    background: #eee;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* PROJECTS */
+.project {
+    background: #f4f4f4;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    background: #222;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* CONTACT */
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background: #222;
+    color: white;
+    border: none;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .project {
+        width: 100%;
+    }
+}
