@@ -56,7 +56,7 @@ nav ul li a:hover{
 /* HERO SECTION */
 header{
     background:url("bg.jpg") no-repeat center center/cover;
-    min-height:80vh;
+    min-height:30vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
